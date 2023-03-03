@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme.Music" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+
+    </style>
+
+
+    <style name="AppMusic.EditTextStyle" parent="Theme.Music">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>}
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:background">@drawable/input_rounded</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="AppMusic.Button" parent="Theme.Music">
+        <item name="android:padding">15dp</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+</resources>
